@@ -1,0 +1,72 @@
+LAB 8: Kod Hamminga - Michał Tymejczyk 44537
+
+HAM(7, 4):
+Tekst: KOT.
+Liczba bitów: 24.
+Wybrana liczba bitów: 12.
+
+Przed kodowaniem: [1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1]
+
+Zbiór indexów podziału bitów: [(0, 4), (4, 8), (8, 12)]
+
+Bity podzielone:
+[1, 0, 0, 1]
+[0, 1, 1, 1]
+[0, 0, 1, 1]
+
+Po kodowaniu: [[0, 0, 1, 1, 0, 0, 1], [0, 0, 0, 1, 1, 1, 1], [1, 0, 0, 0, 0, 1, 1]]
+Zepsuje bit: 7
+Zepsuje bit: 6
+Zepsuje bit: 2
+
+Po zepsuciu: [[0, 0, 1, 1, 0, 0, 0], [0, 0, 0, 1, 1, 0, 1], [1, 1, 0, 0, 0, 1, 1]]
+Zepsuty bit: 7
+Zepsuty bit: 6
+Zepsuty bit: 2
+
+Po dekodowaniu: [1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1]
+
+ = = = = = = = = = = = = = = = =
+
+SECDED:
+Tekst: KOT.
+Podstawowa liczba bitów: 24.
+Wybrana liczba bitów: 12.
+
+Przed kodowaniem: [1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1]
+
+Zbiór indexów podziału bitów: [(0, 4), (4, 8), (8, 12)]
+
+Bity podzielone:
+[1, 0, 0, 1]
+[0, 1, 1, 1]
+[0, 0, 1, 1]
+bit parzystości: 1
+bit parzystości: 0
+bit parzystości: 1
+
+Po kodowaniu: [[0, 0, 1, 1, 0, 0, 1, 1], [0, 0, 0, 1, 1, 1, 1, 0], [1, 0, 0, 0, 0, 1, 1, 1]]
+Zepsuje bit: 1
+Zepsuje bit: 3
+Zepsuje bit: 1
+
+Po zepsuciu: [[1, 0, 1, 1, 0, 0, 1, 1], [0, 0, 1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 1, 1, 1]]
+Zepsuje bit: 1
+Zepsuje bit: 1
+Zepsuje bit: 3
+
+Po zepsuciu: [[0, 0, 1, 1, 0, 0, 1, 1], [1, 0, 1, 1, 1, 1, 1, 0], [0, 0, 1, 0, 0, 1, 1, 1]]
+
+Zepsuty bit: 1
+Przed odpsuciem: [1, 0, 1, 1, 0, 0, 1, 1]
+Po odpsuciu: [1, 0, 0, 1]
+
+Zepsuty bit: 3
+Przed odpsuciem: [1, 0, 0, 1, 1, 1, 1, 0]
+Zepsuty p4! Trzeba przesłać ponownie
+
+Zepsuty bit: 3
+Przed odpsuciem: [0, 0, 0, 0, 0, 1, 1, 1]
+Po odpsuciu: [0, 0, 1, 1]
+
+Po dekodowaniu: [1, 0, 0, 1, 0, 0, 1, 1]
