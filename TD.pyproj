@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>656607d1-e43c-42e0-9b20-95d19776f4f4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>lab09.py</StartupFile>
+    <StartupFile>LAB09\lab09.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,37 +22,82 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="lab03.py">
+    <Compile Include="LAB01\lab01.py" />
+    <Compile Include="LAB02\lab02.py" />
+    <Compile Include="LAB03\lab03.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="lab04.py" />
-    <Compile Include="lab02.py">
+    <Compile Include="LAB04\lab04.py" />
+    <Compile Include="LAB05\lab05.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="lab01.py">
+    <Compile Include="LAB06\lab06.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="lab05.py">
+    <Compile Include="LAB08\lab08.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="lab06.py">
+    <Compile Include="LAB07\lab07.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="lab08.py">
+    <Compile Include="LAB09\lab09.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="lab07.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="lab09.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="lab10.py">
+    <Compile Include="LAB10\lab10.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="noise.wav" />
+    <Content Include="LAB01\wykresy.png" />
+    <Content Include="LAB02\wykresy.png" />
+    <Content Include="LAB03\wykresy.pdf" />
+    <Content Include="LAB04\wykresy.pdf" />
+    <Content Include="LAB05\wykresy.pdf" />
+    <Content Include="LAB06\wykresy.pdf" />
+    <Content Include="LAB07\wykresy.png" />
+    <Content Include="LAB08\hamming.txt" />
+    <Content Include="LAB09\dekod_trans.png" />
+    <Content Include="LAB09\kod_trans.png" />
+    <Content Include="LAB09\lab9.txt" />
+    <Content Include="LAB10\lab10.txt" />
+    <Content Include="LAB10\noise.wav" />
+    <Content Include="Lab10\Plots\ASK-dB.pdf" />
+    <Content Include="Lab10\Plots\ASK.pdf" />
+    <Content Include="Lab10\Plots\ASK_0.95-dB.pdf" />
+    <Content Include="Lab10\Plots\ASK_0.95.pdf" />
+    <Content Include="Lab10\Plots\ASK_0.9955-dB.pdf" />
+    <Content Include="Lab10\Plots\ASK_0.9955.pdf" />
+    <Content Include="Lab10\Plots\ASK_0.997-dB.pdf" />
+    <Content Include="Lab10\Plots\ASK_0.997.pdf" />
+    <Content Include="Lab10\Plots\FSK-dB.pdf" />
+    <Content Include="Lab10\Plots\FSK.pdf" />
+    <Content Include="Lab10\Plots\FSK_0.33-dB.pdf" />
+    <Content Include="Lab10\Plots\FSK_0.33.pdf" />
+    <Content Include="Lab10\Plots\FSK_0.335-dB.pdf" />
+    <Content Include="Lab10\Plots\FSK_0.335.pdf" />
+    <Content Include="Lab10\Plots\FSK_0.345-dB.pdf" />
+    <Content Include="Lab10\Plots\FSK_0.345.pdf" />
+    <Content Include="Lab10\Plots\PSK-dB.pdf" />
+    <Content Include="Lab10\Plots\PSK.pdf" />
+    <Content Include="Lab10\Plots\PSK_0.325-dB.pdf" />
+    <Content Include="Lab10\Plots\PSK_0.325.pdf" />
+    <Content Include="Lab10\Plots\PSK_0.335-dB.pdf" />
+    <Content Include="Lab10\Plots\PSK_0.335.pdf" />
+    <Content Include="Lab10\Plots\PSK_0.352-dB.pdf" />
+    <Content Include="Lab10\Plots\PSK_0.352.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Lab10\Plots\" />
+    <Folder Include="LAB06\" />
+    <Folder Include="LAB07\" />
+    <Folder Include="LAB08\" />
+    <Folder Include="LAB10\" />
+    <Folder Include="LAB09\" />
+    <Folder Include="LAB05\" />
+    <Folder Include="LAB04\" />
+    <Folder Include="LAB03\" />
+    <Folder Include="LAB01\" />
+    <Folder Include="LAB02\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
